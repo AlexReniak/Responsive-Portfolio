@@ -128,7 +128,7 @@ h3, h2 {
 .main-section {
   float: left;
   width: 100%;
-  max-width: 680px;
+  max-width: 70%; /* original px was 960 */
   padding: 30px;
   margin: 0 0 40px;
   background: #ffffff;
