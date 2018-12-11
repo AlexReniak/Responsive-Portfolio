@@ -222,11 +222,16 @@ input[type=submit] {
 @media screen and (max-width: 768px) {
 
   .container {
-    width: 90%;
+    max-width: 90%;
   }
 
+
   .auth-image {
-    width: 300px;
+    width: 50%;
+  }
+
+  .work {
+    max-width: 40%;
   }
 }
 
@@ -246,7 +251,12 @@ input[type=submit] {
   }
 
   .auth-image {
-    width: 450px;
-    margin: 0 auto;
+    width: 100%;
+    margin: auto;
+  }
+
+  .work {
+    float: none;
+    max-width: 100%;
   }
 }
