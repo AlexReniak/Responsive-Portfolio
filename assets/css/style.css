@@ -128,7 +128,7 @@ h3, h2 {
 .main-section {
   float: left;
   width: 100%;
-  max-width: 960px;
+  max-width: 680px;
   padding: 30px;
   margin: 0 0 40px;
   background: #ffffff;
@@ -217,7 +217,13 @@ input[type=submit] {
   border: 0 none;
 }
 
+@media screen and (max-width: 980px) {
 
+  #main-section {
+    max-width: 60%;
+  }
+
+}
 
 @media screen and (max-width: 768px) {
 
@@ -231,7 +237,7 @@ input[type=submit] {
   }
 
   .work {
-    max-width: 40%;
+    max-width: 45%;
   }
 }
 
